@@ -4,3 +4,5 @@
 nomes = ["Geovanni", "Carl", "Luke"]
 for nome in nomes:
     print(nome)
+
+print("testanto o GitHub")
