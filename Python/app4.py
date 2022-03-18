@@ -29,3 +29,5 @@ while horario <= 17:
     print(horario)
     horario += 1
 print("Hora de ir ver o por do sol")
+
+resultado = 10 + 30

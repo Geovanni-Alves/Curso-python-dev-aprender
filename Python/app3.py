@@ -11,3 +11,5 @@ versoes = ["Plus", "Premium Plus", "Primium Deluxe", "Plus Premium Ultra"]
 for celular in celulares:
     for versao in versoes:
         print(f"Celular: {celular}, na Versão: {versao}")
+
+resultado = 60 + 30 + 50 (60/3)

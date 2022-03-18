@@ -1,0 +1,8 @@
+DEBUG - Logging nivel debug
+CRITICAL - Logging nivel critical
+INFO - Logging nivel info
+WARNING - Logging nivel warning
+ERROR - Logging nivel error
+INFO - geo-estevam@hotmail.com entrou em sua conta bancária
+INFO - invalid literal for int() with base 10: 'senha e tal'
+INFO - invalid literal for int() with base 10: 'dskadasdj' - 2022-03-10 00:20:53,706

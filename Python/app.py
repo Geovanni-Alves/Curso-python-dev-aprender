@@ -5,7 +5,7 @@ isso eu nao sabia, que legal ''')
 
 print('Ola meu nome é \nGeovanni')
 print('Codas todos \'os dias\'')
-print('Arquivo encontrato em \\c:drive\\arquivo.txt')
+print('Arquivo encontrato em \\c:drive\\arquivo.txt')           
 nome = "Geovanni"
 print(nome)
 print(len(nome))
