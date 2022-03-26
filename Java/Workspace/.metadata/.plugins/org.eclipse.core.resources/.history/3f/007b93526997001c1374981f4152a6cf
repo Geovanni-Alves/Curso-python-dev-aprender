@@ -1,0 +1,35 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class ContaPagar {
+	
+	private String Descricao;
+	private double Valor;
+	private String DataVencimento;
+	private String Fornecedor;
+	public String getDescricao() {
+		return Descricao;
+	}
+	public void setDescricao(String descricao) {
+		Descricao = descricao;
+	}
+	public double getValor() {
+		return Valor;
+	}
+	public void setValor(double valor) {
+		Valor = valor;
+	}
+	public String getDataVencimento() {
+		return DataVencimento;
+	}
+	public void setDataVencimento(String dataVencimento) {
+		DataVencimento = dataVencimento;
+	}
+	public String getFornecedor() {
+		return Fornecedor;
+	}
+	public void setFornecedor(String fornecedor) {
+		Fornecedor = fornecedor;
+	}
+
+	
+}

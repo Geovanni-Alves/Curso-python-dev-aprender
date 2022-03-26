@@ -1,0 +1,9 @@
+package com.capsule.curso.fjoo.matematica;
+
+public enum SituacaoConta {
+	
+	PENDENTE,
+	PAGA,
+	CANCELADA;
+	
+}

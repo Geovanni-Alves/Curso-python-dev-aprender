@@ -1,0 +1,7 @@
+package com.capsule.java.execoes;
+
+public class TesteExcecoes {
+	// int numero = 5 /0;  // lanca java.lang.arithmeticException
+	
+
+}

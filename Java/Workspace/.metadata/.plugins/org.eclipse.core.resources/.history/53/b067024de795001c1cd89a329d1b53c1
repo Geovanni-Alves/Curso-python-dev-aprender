@@ -1,0 +1,10 @@
+package com.capsule.curso.fjoo.enums;
+
+public enum OperacaoAritimetica {
+	
+	ADICAO,
+	SUBTRAÇÃO;
+	
+	public abstract int operacao(int x, int y);
+
+}

@@ -1,0 +1,11 @@
+package com.capsule.java.execoes;
+
+public class TesteExcecoesChegadas {
+	public static void main(String[] args) {
+		ContaCorrente cc = new ContaCorrente(1500);
+		
+		cc.sacar(50);
+		System.out.println(cc.getSaldo());
+	
+	}
+}

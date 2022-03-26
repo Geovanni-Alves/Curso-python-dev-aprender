@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Megasena {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.print("Digite quantos jogos devem ser gerados.");
+		int jogos = entrada.nextInt();
+		for (int j = 1; j <= jogos; j++ ) {
+			for (int dezenas = 1; dezenas == 6; dezenas++) {
+				double numero = Math.random() * 60;
+				int jogo += Math.round(numero); 
+				System.out.println(jogo);	
+			}
+			
+		}
+	}
+}

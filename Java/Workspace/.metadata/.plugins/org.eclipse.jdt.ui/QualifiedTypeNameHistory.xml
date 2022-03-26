@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Proprietario"/>
+    <fullyQualifiedTypeName name="Carro"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.treinador.DonoCachorro"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.animal.Cachorro"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.matematica.MatematicaUtil"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.enums.OperacaoAritimetica"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.matematica.SituacaoConta"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.fjoo.sobreposicao.ProdutoPerecivel"/>
+    <fullyQualifiedTypeName name="com.capsule.cursojava.financeiro.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="com.capsule.curso.sobrecarga.CadastroPessoa"/>
+    <fullyQualifiedTypeName name="com.capsule.java.cafe.MaquinaCafe"/>
+    <fullyQualifiedTypeName name="com.capsule.java.seguro.CorretoraSeguros"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.capsule.cursojava.financeiro.modelo.Conta"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.capsule.java.execoes.ContaCorrente"/>
+    <fullyQualifiedTypeName name="com.capsule.java.execoes.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.awt.image.DataBufferByte"/>
+    <fullyQualifiedTypeName name="javax.swing.text.SimpleAttributeSet"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.capsule.java.Obstetra.CalculadoraGravidez"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.capsule.java.collections.Aluno"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+</qualifiedTypeNameHistroy>

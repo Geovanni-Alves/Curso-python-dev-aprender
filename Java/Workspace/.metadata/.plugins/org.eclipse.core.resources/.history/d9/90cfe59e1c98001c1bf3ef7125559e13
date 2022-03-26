@@ -1,0 +1,10 @@
+package com.capsule.curso.sobrecarga;
+
+public class CadastroPessoa {
+	
+	private void armazenar(String nome, int idade) {
+		// salva no banco de dados...
+		System.out.println("Salvando: \"" + nome + "\" com " + idade + " anos.");
+	}
+
+}

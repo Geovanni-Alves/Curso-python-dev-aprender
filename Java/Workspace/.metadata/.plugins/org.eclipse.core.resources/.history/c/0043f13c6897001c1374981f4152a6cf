@@ -1,0 +1,32 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		Fornecedor imobiliaria = new Fornecedor ();
+		imobiliaria.setNome("Casa e Cia negocios imobiliarios");
+		
+		Fornecedormercado=newFornecedor();
+		mercado.setNome("MercadodoJoão");
+		
+		ContaPagarconta1=newContaPagar();
+		conta1.setDescricao("Alugueldamatriz");
+		conta1.setValor(1230d);
+		conta1.setDataVencimento("10/05/2012");
+		conta1.setFornecedor(imobiliaria);
+		
+		ContaPagarconta2=newContaPagar(mercado,"Comprasdomês",390d,"19/05/2012");
+		
+		ContaPagarconta3=newContaPagar(mercado,"Alugueldafilial",700d,"11/05/2012");
+		
+		//pagamentodecontapendente(ok,devefuncionar)
+		conta1.pagar();
+		//tentativadepagarumacontacancelada(nãodeveaceitarpagamento)
+		conta2.cancelar();
+		conta2.pagar();
+		//tentativadepagarumacontaduasvezes(nãodeveaceitarnasegundavez)
+		conta3.pagar();
+		conta3.pagar();
+	}
+
+}

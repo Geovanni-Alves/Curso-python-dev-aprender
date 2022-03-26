@@ -1,0 +1,23 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class ContaReceber extends Conta {
+
+	public ContaReceber() {
+		
+	}
+	public ContaReceber(Fornecedor fornecedor, String descricao, 
+			double valor, String dataVencimento) {
+		this.situacaoConta = situacaoConta;
+		this.fornecedor = fornecedor;
+		this.descricao = descricao;
+		this.valor = valor;
+		this.dataVencimento = dataVencimento;		
+	}
+	public void Cancelar() {
+		
+	}
+	
+	public void Receber() {
+		
+	}
+}

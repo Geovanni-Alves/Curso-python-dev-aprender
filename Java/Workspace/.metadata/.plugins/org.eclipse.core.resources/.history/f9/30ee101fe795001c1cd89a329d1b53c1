@@ -1,0 +1,8 @@
+package com.capsule.curso.fjoo.enums;
+
+public enum OperacaoAritimetica {
+	
+	ADICAO,
+	SUBTRAÇÃO;
+
+}

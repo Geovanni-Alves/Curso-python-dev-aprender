@@ -1,0 +1,12 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class ContaReceber extends Conta {
+
+	public void cancelar() {
+		
+	}
+	
+	public void receber() {
+		
+	}
+}

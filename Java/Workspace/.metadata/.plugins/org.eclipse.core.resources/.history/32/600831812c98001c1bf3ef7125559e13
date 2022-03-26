@@ -1,0 +1,20 @@
+package com.capsule.java.seguro;
+
+public class Carro implements Seguravel {
+	
+	private double valorMercado;
+	private int anoFabricacao;
+
+
+	public double calcularValorApolice() {
+		
+		return 0;
+	}
+
+	
+	public String obterDescricao() {
+
+		return null;
+	}
+
+}

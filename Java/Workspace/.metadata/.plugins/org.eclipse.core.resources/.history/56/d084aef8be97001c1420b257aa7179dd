@@ -1,0 +1,7 @@
+package com.capsule.curso.fjoo.sobreposicao;
+
+public class ProdutoPerecivel extends Produto {
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package com.capsule.java.execoes;
+
+public class TesteExcecoes {
+	// int numero = 5 /0;  // lança java.lang.arithmeticException
+	String s = "Texto";
+	s = null;
+	s.toUpperCase();
+
+}

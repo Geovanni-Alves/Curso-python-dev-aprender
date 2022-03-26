@@ -1,0 +1,13 @@
+package com.capsule.curso.fjoo.treinador;
+
+
+
+public class TreinadorCachorro {
+
+	public static void main(String[] args) {
+		Cachorro cachorro = new Cachorro();
+		cachorro.setNome("Goku");
+
+	}
+
+}

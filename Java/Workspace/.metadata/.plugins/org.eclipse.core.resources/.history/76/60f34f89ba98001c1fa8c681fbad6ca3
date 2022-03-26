@@ -1,0 +1,15 @@
+package com.capsule.java.numeros;
+
+import java.math.BigDecimal;
+import java.util.Scanner;
+
+public class TesteBigDecimal {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite um numero para o calculo:");
+		double numeroCalculo = entrada.nextDouble();
+		
+		Bigdecimal bd = new BigDecimal(numeroCalculos);
+	}
+
+}

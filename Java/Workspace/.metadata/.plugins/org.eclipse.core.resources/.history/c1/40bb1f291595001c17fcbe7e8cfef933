@@ -1,0 +1,12 @@
+
+public class Pessoa {
+	
+	String nome;
+	int idade;
+	
+	String dizernome() {
+		
+		return string
+	}
+
+}

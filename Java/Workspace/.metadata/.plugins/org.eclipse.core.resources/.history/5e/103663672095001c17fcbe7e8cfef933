@@ -1,0 +1,10 @@
+
+public class TesteJavaBean {
+
+	public static void main(String[] args) {
+		PessoaBean pessoa = new PessoaBean();
+		pessoa.setNome("Geovanni Alves);
+
+	}
+
+}

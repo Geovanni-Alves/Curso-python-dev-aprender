@@ -1,0 +1,9 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+private enum SituacaoConta {
+	
+	PENDENTE,
+	PAGA,
+	CANCELADA;
+	
+}

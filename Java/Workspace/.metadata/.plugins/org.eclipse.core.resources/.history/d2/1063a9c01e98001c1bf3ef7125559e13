@@ -1,0 +1,12 @@
+package com.capsule.java.cafe;
+
+public class MaquinaCafe {
+	int acucarDisponivel;
+	
+	public void fazerCafe() {
+		if (acucarDisponivel > 0) {
+			System.out.println("Fazendo o cafe!");
+		}
+	}
+
+}

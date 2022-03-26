@@ -1,0 +1,15 @@
+
+public class TesteEncapsulamento {
+
+	public static void main(String[] args) {
+		
+		ArCondicionado ar = new ArCondicionado();
+		
+		ar.temperatura = -21;
+		
+		System.out.println("Temperatura: " + ar.temperatura+"°");
+		 
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.capsule.java.datas;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TesteDatas {
+	public static void main(String[] args) {
+		Date hoje = new Date();
+		System.out.println(hoje);
+		
+		Object DateFormat = formatador = new SimpleDateFormat("dd/MM/yyyy");
+	}
+
+}

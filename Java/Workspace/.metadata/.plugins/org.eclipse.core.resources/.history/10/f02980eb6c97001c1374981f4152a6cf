@@ -1,0 +1,20 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+import com.capsule.cursojava.financeiro.modelo.Fornecedor;
+import com.capsule.cursojava.financeiro.modelo.ContaPagar;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Fornecedor imobiliaria = new Fornecedor();
+		
+		Fornecedor mercado = new Fornecedor();
+		mercado.setNome("Mercado do Joao");
+		
+		ContaPagar conta1 = new ContaPagar();
+		
+		
+
+	}
+
+}

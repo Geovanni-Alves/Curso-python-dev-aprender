@@ -1,0 +1,6 @@
+package com.capsule.java.cafe;
+
+public class MaquinaCafe {
+	int acucarDisponivel = 200;
+
+}

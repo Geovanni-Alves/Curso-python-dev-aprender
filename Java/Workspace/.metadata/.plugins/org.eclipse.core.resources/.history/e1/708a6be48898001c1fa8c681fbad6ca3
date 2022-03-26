@@ -1,0 +1,12 @@
+package com.capsule.java.strings;
+
+public class TesteStrings {
+	public static void main(String[] args) {
+		// String, StringBuilder e StringBuffer
+		String s = "Ola";
+		s = s + "Pessoal ";
+		System.out.println(s);
+		
+	}
+
+}

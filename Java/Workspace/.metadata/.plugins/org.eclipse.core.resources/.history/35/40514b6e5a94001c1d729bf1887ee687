@@ -1,0 +1,12 @@
+
+public class ExemploThis {
+	public static void main(String[] args) {
+		Carro carro = new Carro();
+		carro.modelo = "Ford Ka";
+		
+		System.out.println(carro.modelo);
+		
+		carro.alterarModelo("BMW);
+	}
+
+}

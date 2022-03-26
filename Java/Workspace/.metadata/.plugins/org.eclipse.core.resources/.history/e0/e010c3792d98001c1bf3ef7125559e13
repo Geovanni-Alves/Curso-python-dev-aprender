@@ -1,0 +1,13 @@
+package com.capsule.java.seguro;
+
+public class CorretoraSeguros {
+	
+	public void fazerPropostaSeguro(Seguravel objetoSeguravel) {
+		System.out.println("-------------------------------");
+		System.out.println("Corretora de Seguros - Proposta");
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.capsule.curso.fjoo.sobreposicao;
+
+public class TesteSobreposicao {
+
+	public static void main(String[] args) {
+		ProdutoPerecivel pp = new ProdutoPerecivel();
+		pp.descricao = "Caixa de fosforo";
+		pp.identificar();
+
+		
+	}
+
+}

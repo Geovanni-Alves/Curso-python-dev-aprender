@@ -1,0 +1,23 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class Conta {
+	protected String descricao;
+	protected double valor;
+	protected String dataVencimento;
+	protected Fornecedor fornecedor;
+	
+	protected SituacaoConta situacaoConta;
+		
+
+	public Conta() {
+		situacaoConta = SituacaoConta.PENDENTE;
+	}
+	void Cancelar() {
+		situacaoConta = getSituacaoConta();
+		//System.out.println(situacaoConta);
+		if (situacaoConta != situacaoConta.CANCELADA) {
+			System.out.println("Conta CANCELADA com susseso");
+			situacaoConta = situacaoConta.CANCELADA;		
+		}
+	}
+}

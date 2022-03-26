@@ -1,0 +1,23 @@
+package com.capsule.java.execoes;
+
+public class TesteExcecoesChegadas {
+	public static void main(String[] args) {
+		ContaCorrente cc = new ContaCorrente(100);
+		
+		try {
+		   cc.sacar(60);
+		} catch (SaldoInsuficienteException e) {
+			
+		}
+		System.out.println(cc.getSaldo());
+		
+		try {
+			cc.sacar(60);
+		} catch (SaldoInsuficienteException e) {
+			
+		}
+		
+		System.out.println(cc.getSaldo());
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.capsule.curso.fjoo.treinador;
+
+public class DonoCachorro {
+	
+	
+	void ensinarCahorroSentar(Cachorro cachorro) {
+		
+	}
+
+}

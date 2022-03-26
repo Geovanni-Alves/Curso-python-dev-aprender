@@ -1,0 +1,21 @@
+package com.capsule.java.execoes;
+
+public class ContaCorrente {
+	private double saldo;
+	
+	public ContaCorrente(double saldo) {
+		this.saldo = saldo;
+	}
+	
+	public void depositar(double deposito) {
+		this.saldo += deposito;
+	}
+	
+	public void sacar(double quantidade) {
+		this.saldo -= quantidade;
+	}
+
+	public double getSaldo() {
+		return this.saldo;
+	}
+}

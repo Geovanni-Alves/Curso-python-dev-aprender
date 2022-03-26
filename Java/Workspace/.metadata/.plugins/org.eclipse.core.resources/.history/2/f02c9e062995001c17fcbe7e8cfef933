@@ -1,0 +1,12 @@
+package com.capsule.curso.fjoo.modificadorstatic;
+
+public class Contador {
+	
+	public final int COUNT = 0;
+	
+	public void incrementar() {
+		COUNT++;
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package com.capsule.curso.fjoo.enums;
+
+public class TesteOperacaodoEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

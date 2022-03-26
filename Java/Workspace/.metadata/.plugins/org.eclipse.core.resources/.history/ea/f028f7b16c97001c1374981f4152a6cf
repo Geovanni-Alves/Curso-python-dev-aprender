@@ -1,0 +1,9 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class ContaPagar {
+	
+	private SituacaoConta situacaoConta;
+	
+	
+
+}

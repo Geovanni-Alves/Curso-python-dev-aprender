@@ -1,0 +1,15 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+public class ContaPagar {
+	
+	private String descricao;
+	private double valor;
+	private String dataVencimento;
+	
+	private Fornecedor fornecedor;
+	
+	private SituacaoConta situacaoConta;
+	
+	
+
+}

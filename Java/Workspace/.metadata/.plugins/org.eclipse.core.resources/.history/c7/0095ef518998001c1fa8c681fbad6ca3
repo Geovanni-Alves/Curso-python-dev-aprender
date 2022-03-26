@@ -1,0 +1,14 @@
+package com.capsule.java.strings;
+
+public class TesteStrings {
+	public static void main(String[] args) {
+		// String, StringBuilder e StringBuffer
+		
+		String s = "Ola"; // Criada a String "Ola"
+		s = s + " Pessoal "; // Criada a String "Ola Pessoal!"
+		
+		System.out.println(s);
+		
+	}
+
+}

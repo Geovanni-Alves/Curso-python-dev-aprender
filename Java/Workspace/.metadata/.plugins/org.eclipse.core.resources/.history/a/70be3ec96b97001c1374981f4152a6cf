@@ -1,0 +1,11 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Fornecedor imobiliaria = new Fornecedor();
+
+	}
+
+}

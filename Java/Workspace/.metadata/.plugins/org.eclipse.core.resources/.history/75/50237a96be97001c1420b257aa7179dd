@@ -1,0 +1,10 @@
+package com.capsule.curso.fjoo.sobreposicao;
+
+public class TesteSobreposicao {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class TesteArrays {
+
+	public static void main(String[] args) {
+		int[] notas;
+		notas = new int[4];
+		int[3] = "teste";
+		System.out.println(int[3]);
+	
+
+	}
+
+}

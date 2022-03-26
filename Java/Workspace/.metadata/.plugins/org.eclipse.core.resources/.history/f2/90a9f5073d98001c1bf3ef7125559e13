@@ -1,0 +1,6 @@
+package com.capsule.java.execoes;
+
+public class SaldoInsuficienteException extends Exception {
+
+	public SaldoInsuficienteException()
+}

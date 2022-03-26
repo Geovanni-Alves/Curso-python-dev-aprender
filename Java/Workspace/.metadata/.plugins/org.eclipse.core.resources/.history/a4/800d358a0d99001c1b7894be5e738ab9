@@ -1,0 +1,11 @@
+package com.capsule.java.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteListArrayList {
+	public static void main(String[] args) {
+		List alunos = new ArrayList<E>();
+	}
+
+}

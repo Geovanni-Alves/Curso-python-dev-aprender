@@ -1,0 +1,8 @@
+package com.capsule.curso.fjoo.matematica;
+
+public class MatematicaUtil {
+	public static int calcularFibonacci (int posicao) {
+		return posicao;
+	}
+	return calcularFibonacci (posicao - 1) + calcularFibonacci (posicao - 2);
+}

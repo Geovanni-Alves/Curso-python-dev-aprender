@@ -1,0 +1,13 @@
+package com.capsule.curso.fjoo.enums;
+
+public class TesteOperacaodoEnum {
+
+	public static void main(String[] args) {
+		OperacaoAritimetica o1 = OperacaoAritimetica.ADICAO;
+		
+		o1.operacao(5, 3); 
+		
+
+	}
+
+}

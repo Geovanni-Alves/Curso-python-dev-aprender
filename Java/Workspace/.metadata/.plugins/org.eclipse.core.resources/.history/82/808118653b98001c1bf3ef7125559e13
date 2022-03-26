@@ -1,0 +1,13 @@
+package com.capsule.java.execoes;
+
+public class TesteExcecoes {
+	public static void main(String[] args) {
+		// int numero = 5 /0;  // lança java.lang.arithmeticException
+		//String s = "Texto";
+		//s = null;
+		//s.toUpperCase();  lança // java.lang.NullPointerException
+		
+		ContaCorrente cc = new ContaCorrente(1000);
+	}
+
+}

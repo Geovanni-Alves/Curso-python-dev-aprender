@@ -1,0 +1,8 @@
+
+public class PessoaBean {
+	// para ser javabean os atributos precisam ser Private
+	
+	private String nome;
+	
+
+}

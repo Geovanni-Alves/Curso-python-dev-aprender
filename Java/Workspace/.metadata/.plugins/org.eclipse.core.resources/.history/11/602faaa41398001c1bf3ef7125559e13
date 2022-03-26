@@ -1,0 +1,47 @@
+package com.capsule.cursojava.financeiro.modelo;
+
+import com.capsule.cursojava.financeiro.modelo.Fornecedor;
+import com.capsule.cursojava.financeiro.modelo.ContaPagar;
+import com.capsule.cursojava.financeiro.modelo.Cliente;
+import com.capsule.cursojava.financeiro.modelo.ContaReceber;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// instanciando fornecedores
+		Fornecedor imobiliaria = new Fornecedor();
+		imobiliaria.setNome("Casa & Cia Negocios Imobiliarios");
+		Fornecedor mercado = new Fornecedor();
+		mercado.setNome("Mercado do Joao");
+		
+		// instaciando clientes
+		Cliente atacadista = new Cliente();
+		atacadista.setNome("Triangulo Quadrado Atacadista");
+		Cliente telecom = new Cliente();
+		telecom.setNome("Fonenet Telecomunicações");
+		
+		// instaciando contas a pagar
+		ContaPagar contaPagar1 = new ContaPagar();
+		
+		contaPagar1.setDescricao("Aluguel da Matriz");
+		contaPagar1.setValor(1230d);
+		contaPagar1.setDataVencimento("10/05/2012");
+		contaPagar1.setFornecedor(imobiliaria);
+		
+		ContaPagar conta2 = new ContaPagar(mercado, "Compras do mês", 390d, "19/05/2012");
+		
+		ContaPagar conta3 = new ContaPagar(mercado, "Aluguel da filial", 700d, "11/05/2012");
+		
+		contaPagar1.Pagar();
+		
+		conta2.Cancelar();
+		conta2.Pagar();
+		
+		conta3.Pagar();
+		conta3.Pagar();
+
+		
+
+	}
+
+}

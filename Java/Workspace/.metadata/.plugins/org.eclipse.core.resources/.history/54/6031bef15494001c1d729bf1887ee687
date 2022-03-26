@@ -1,0 +1,11 @@
+
+public class TesteArrays {
+
+	public static void main(String[] args) {
+		int[] notas;
+		System.out.println(int[5]);
+	
+
+	}
+
+}

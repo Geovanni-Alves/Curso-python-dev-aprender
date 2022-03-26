@@ -1,0 +1,13 @@
+
+public class TesteConstrutor {
+
+	public static void main(String[] args) {
+		Pessoa p1 = new Pessoa();
+		
+		System.out.println("nome: \"" + p1.nome + "\" tem " + p1.idade + " anos." );
+		
+		
+
+	}
+
+}

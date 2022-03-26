@@ -1,0 +1,17 @@
+package com.capsule.curso.fjoo.enums;
+
+public enum Naipe {
+
+	OURO,
+	PAUS,
+	ESPADA,
+	COPAS;
+	
+	
+	private String cor;
+	
+	Naipe(String cor) {
+		this.cor = cor
+	}
+	
+}

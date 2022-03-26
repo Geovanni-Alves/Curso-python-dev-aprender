@@ -1,0 +1,17 @@
+
+public class Principal6 {
+
+	public static void main(String[] args) {
+		Integer i = new Integer(10);
+		byte b = i.byteValue();
+		
+		// byte - Byte
+		// short - Short
+		// int - Integer
+		// long - Long
+		// float - Floag
+		// double - Double
+		// char - Character
+		
+	}
+}

@@ -1,0 +1,20 @@
+package com.capsule.java.numeros;
+
+import java.text.DecimalFormat;
+
+public class TesteNumeros {
+	
+	public static void main(String[] args) {
+		DecimalFormat formatador = new DecimalFormat("R$ #,###,##0.00");
+		double valorProduto = 1300.59;
+		double outroProduto = 10.60;
+		double maisUmProduto = 5.35;
+		
+		System.out.println(valorProduto);
+		System.out.println(formatador.format(valorProduto));
+		System.out.println(formatador.format(outroProduto));
+		System.out.println(formatador.format(maisUmProduto));
+		
+	}
+
+}
